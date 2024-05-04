@@ -1,0 +1,24 @@
+<script>
+    /*
+    Através da fórmula matemática,
+      Δ = b² - 4 * a * c      (-b + √Δ) / (2 * a)
+    
+    Encontre as raizes reais para equação de segundo grau: 4x² + 6x + 2 = 0.
+    */
+    
+    // Entrada de dados
+    const a = 4;
+     const b = 6;
+     const c = 2;
+    
+    // Processamento
+    const delta = b * b - 4 * a * c;
+
+    const raiz1 = (-b + Math.sqrt(delta)) / (2 * a);
+        const raiz2 = (-b - Math.sqrt(delta)) / (2 * a);
+    // Saída de dados
+    document.write("o valor de x1 e "+raiz1+" .<br>")
+    
+    document.write("o valor de x2 e "+raiz2+". ")
+    
+    </script>
